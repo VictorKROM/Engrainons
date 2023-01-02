@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet"> 
+		<style> @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap'); </style>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Andika&display=swap" rel="stylesheet"> 
+	<style> @import url('https://fonts.googleapis.com/css2?family=Andika&display=swap'); </style> 
+	<title>Assitance</title>
+</head>
+<body>
+	<nav class="wrap">
+			<ul class="navbar">
+				<li>
+					<a href="#">L'utilisation</a>
+				</li>
+				<li> 
+					<a href="Label_bio.html">Le label bio </a>
+				</li>
+				<li>
+					<a href="OrigineFrance.html">Origine France</a>
+				</li>
+				<li>
+					<a href= "nous.html"> Nous</a>
+				</li>
+				<li>
+					<a href="assistance.html">Contact</a>
+				</li>
+			</ul>
+		<a class= "logo" href="Engrainons.html"> <img class="logo" src="Engrainons4.png"></a>
+		</nav>
+
+	<div class="banniere3">
+	<h3>Assitance<br><br>
+		Pour tout contact ou réclamation : </h3><br>
+		<div class="Requête">
+		<h2>Requête</h2>
+		<p6>Pour toute requête quant à votre produit, ou une réclamation, vous êtes au bon endroit !</p6><br><br>
+		</div>
+		<form action="/page-traitement-donnes" method="post">
+		<div class="nom">
+		<label for="nom"> Quel est votre nom?</label>
+		<input type="text" id="nom" name="nom" placeholder="Martin" required><br><br>
+		</div>
+		<div class=mail>
+		<label for ="contact"> Quel est votre mail?</label>
+		<input type ="email" id="email" name="email" placeholder="monadresse@gmail.com" required>
+		</div>
+		<div class=req-2>
+		<label for="requête"> Quel est le sujet de votre requête?<br>
+		<select name="reqûete" id="requête" required>
+		<option value="rien" disabled selected hidden> Quel est votre problème? </option>
+		
+		<option value="probleme-commande"> Problème avec ma commande </option>
+		<option value="reclamation-produit"> Réclamation quant au produit reçu</option>
+		<option value="suivi-commande"> Je n'ai pas reçu de mail de suivi, et aimerais suivre ma commande</option>
+		<option value="autre"> Autre </option>
+		</select>
+		</div>
+		<div class=message>
+		<br><br><label for="message2"> Votre message</label>
+		<textarea class="text" id="message2" name="message2" required></textarea>
+		</div>
+		<br><br><div class=envoyer>
+		<button type="submit">Envoyer mon message</button>
+		</div>
+		</form>
+	<br><p>Contact :</p>
+	<p>Numéro de l'assistance : 04 45 48 02 36</p>
+	<p>Email : <a href="https://mail.google.com/mail/u/0/?pli=0#inbox?compose=new">engrainons@gmail.com</p></a>
+</body>
+</html>
